@@ -31,6 +31,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.3.3.RELEASE'
     implementation group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-springsecurity5', version: '3.0.4.RELEASE'
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.3.9'
 
     implementation("com.querydsl:querydsl-jpa:${querydslVersion}")
     annotationProcessor("com.querydsl:querydsl-apt:${querydslVersion}:jpa") // QueryDSL
